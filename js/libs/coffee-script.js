@@ -12,7 +12,7 @@
     
     width = $('#vis').innerWidth(); //for ie explorer
     
-    height =650;
+    height=450;
     data = [];
     node = null;
     label = null;
@@ -22,7 +22,7 @@
       bottom: 5,
       left: 10
     };
-    maxRadius = 50;
+    maxRadius = 30;
     rScale = d3.scale.sqrt().range([0, maxRadius]);
     rValue = function(d) {
       return parseInt(d.count);
@@ -358,7 +358,7 @@ var relations = {
     "VoLTE": ["LTE", "VoLTE", "4.5G", "4G", "MME", "eNodeB", "IMS"],
     "Web Development": ["script", "Javascript","HTML","Framework7","App","develop","git", "web"],
     "Embedded Programming": ["C++", "firmware", "embedded", "ARM", "chipset", "protocol"],
-    "SON": [ "optimisation", "3G", "4G", "algorithm", "self", "automatic", "AI", "artificial", "intelligent", "smart"],
+    "SON": [ "SON", "optimisation", "3G", "4G", "algorithm", "self", "automatic", "artificial", "intelligent", "smart"],
     
     "MSc. in Telecomm.": [ "Master", "Thesis", "Msc", "RWTH" ],
     "High Honor Student": [ "CGPA: 3.81", "METU" ],
@@ -374,7 +374,12 @@ var relations = {
     "Obj. O. Programming":["C#","Java"], 
     "Python":["python", "pandas", "matplotlib", "jupyter","notebook","data analysis","django","numpy"],
     "C/C++": ["C++", "embedded"],
-    "German Speaking": ["german", "deutsch", "sprache"]
+    "German Speaking": ["german", "deutsch", "sprache"],
+    "TEV Scholar": ["TEV", "Scholar", "DAAD", "German Academic Exchange Service"],
+    "High Honor Student": ["Honor", "Grade Point Average"],
+    "Turkcell CXO Award": ["Turkcell", "CXO"], 
+    "Texas Instruments Award": ["Texas Instruments", "DSP"],
+    "Conference Speeches":["speaker", "presentation", "summit", "conference"]
 
 };
   
