@@ -350,7 +350,7 @@ function relatedHighlight(myString)
 var relations = {
     
     "Telecomm.": ["network","3G","4G","2G", "LTE", "VoLTE"],
-    "Data Analysis": ["Python","pandas","matplotlib", "data", "mining", "database", "analysis", "data"],
+    "Data Analysis": ["Python","pandas","matplotlib", "data", "mining", "database", "analysis", "data", "analytics"],
     "Optimisation": ["network", "LTE", "UMTS", "HSDPA", "HICH", "E-RGCH", "HSPA", "HSUPA", "parameter", "performance", "EUL", "RRC", "2G", "3G", "4G", "5G", "VoLTE"],
     "Benchmarking": ["benchmark", "LTE", "UMTS", "performance", "2G", "3G", "4G", "5G", "VoLTE", "ookla", "crowd", "sourcing", "report"],
     "Programming": ["SQL", "Database", "Python", "programming", "script", "class", "C++", "Java","HTML","Framework7","App","develop","git", "C#", "implemented", "designed", "developed"],   
