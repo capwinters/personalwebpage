@@ -400,7 +400,7 @@ function displayOverlay(text) {
         "left": 0,
         "width": "100%",
         "height": "100%",
-        "background-color": "rgba(0,0,0,.5)",
+        "background-color": "rgba(0,0,0,.8)",
         "z-index": 10000,
         "vertical-align": "middle",
         "text-align": "center",
@@ -423,8 +423,8 @@ var something = (function() {
     return function() {
         if (!executed) {
             executed = true;
-            displayOverlay("hellod");
-            setTimeout(function(){ removeOverlay(); }, 3000);
+            displayOverlay("Hi, <br> Thanks for visiting. <br> Looks like you are on mobile! <br><br> For much easier browsing and some nice feautures, I highly recommend you to visit the desktop version. If you don't.. that's cool. No hard feelings :)<br><br> This message will destroy itself very soon, and will not bother you again. ");
+            setTimeout(function(){ removeOverlay(); }, 10000);
         }
     };
 })();
