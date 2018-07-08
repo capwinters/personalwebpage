@@ -1,231 +1,247 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
-  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="css/webResumeStyle2.css" rel="stylesheet" type="text/css"> </head>
-
-<body>
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand">
-          <img href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank" height="20" alt="Brand" src="img\linkedin-5-xxl.png"> </a>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script src="js/libs/modernizr-2.0.6.min.js"></script>
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="css/webResumeStyle2.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a href="index.html">
+               <i class="fa fa-3x fa-fw fa-home"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
+               <i class="fa fa-3x fa-fw fa-linkedin-square"></i>
+               </a>
+               <a href="https://github.com/capwinters" target="_blank">
+               <i class="fa fa-3x fa-fw fa-github-square"></i>
+               </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden-xs">
+                     <a href="mailto:kocherdem@yahoo.com?Subject=to%20Mr.Koc">
+                     <i class="fa fa-fw fa-envelope"></i>Contact Me!</a>
+                  </li>
+                          <li class="hidden-xs">
+            <a target="blank" href="doc\Erdem_Koc_Resume.pdf">
+              <i class="fa fa-fw fa-file"></i>My Resume in PDF</a>
+          </li>
+                  <li class="hidden-lg hidden-md hidden-sm">
+                     <a href="index.html">Prof. Interests</a>
+                  </li>
+                  <li class="hidden-lg hidden-md hidden-sm">
+                     <a href="Education_2.html">Education &amp; Info.</a>
+                  </li>
+                  <li class="hidden-lg hidden-md hidden-sm">
+                     <a href="Experience_2.html">Work Experience</a>
+                  </li>
+                  <li class="hidden-lg hidden-md hidden-sm">
+                     <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
+                  </li>
+                  <li class="hidden-lg hidden-md hidden-sm">
+                     <a href="Hobbies_2.html">Hobbies &amp; Interests</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </div>
-      <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden-xs">
-            <a href="mailto:kocherdem@yahoo.com?Subject=to%20Mr.Koc">
-              <i class="fa fa-fw fa-envelope-o"></i>Contact Me!</a>
-          </li>
-          <li class="hidden-lg hidden-md hidden-sm">
-            <a href="index.html">Prof. Interests</a>
-          </li>
-          <li class="hidden-lg hidden-md hidden-sm">
-            <a href="Education_2.html">Education &amp; Info.</a>
-          </li>
-          <li class="hidden-lg hidden-md hidden-sm">
-            <a href="Experience_2.html">Work Experience</a>
-          </li>
-          <li class="hidden-lg hidden-md hidden-sm">
-            <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
-          </li>
-          <li class="hidden-lg hidden-md hidden-sm">
-            <a href="Hobbies_2.html">Hobbies &amp; Interests</a>
-          </li>
-        </ul>
+      <div class="section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 hidden-sm hidden-xs">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="row"></div>
+                        <div class="row"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="bubbleFixedDiv">
+                        <div id="vis"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-9" id="toHighlight">
+                  <div class="row">
+                     <div class="col-md-12 text-center">
+                        <h1>Erdem Koç</h1>
+                        <h3>
+                           <i class="fa fa-fw fa-mobile-phone"></i>+90 532 210 62 27&nbsp;
+                        </h3>
+                        <a href="mailto:kocherdem@yahoo.com?Subject=to%20Mr.Koc">
+                           <h3><i class="fa fa-fw fa-envelope-o"></i>kocherdem@yahoo.com</h3>
+                        </a>
+                        <hr>
+                        <div class="hidden-xs row">
+                           <div class="col-md-12">
+                              <ul class="lead nav nav-justified nav-pills">
+                                 <li>
+                                    <a href="index.html">Prof. Interests</a>
+                                 </li>
+                                 <li>
+                                    <a href="Education_2.html">Education &amp; Info.</a>
+                                 </li>
+                                 <li>
+                                    <a href="Experience_2.html">Work Experience</a>
+                                 </li>
+                                 <li class="active">
+                                    <a href="TechnicalSkills_2.html">Technical Skills</a>
+                                 </li>
+                                 <li>
+                                    <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
+                                 </li>
+                                 <li>
+                                    <a href="Hobbies_2.html">Hobbies Interests</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-12 text-left">
+                              <hr>
+                              <h1 class="text-left">
+                                 <i class="fa fa-fw fa-wifi"></i>Mobile Network Planning and Optimization
+                              </h1>
+                              <ul class="">
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>Self Optimizing Network Algorithms (3G, 4G)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>3G, 4G Performance Measurement and Benchmarking</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>3G, 4G KPI analysis and troubleshooting</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>3G, 4G Radio Interface Protocols</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>4G parameter optimisation</li>
+                                 <li><i class="fa fa-fw fa-star"></i>NB-IoT, Cat-M Fundamentals</li>
+                                 <li><i class="fa fa-fw fa-star"></i>3G, 4G Core Network fundamentals</li>
+                                 <li><i class="fa fa-fw fa-star"></i>5G fundamentals</li>
+                              </ul>
+                              <ol></ol>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-12 text-left">
+                              <hr>
+                              <h1 class="text-left">
+                                 <i class="fa fa-fw fa-laptop"></i>Software Development&nbsp;
+                              </h1>
+                              <ul class="">
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>SQL (hands on experinece on Oracle, MS SQL and related tools like Toad, MS SQL Studio)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>Python (hands on experience on data analysis libraries like pandas, oracle_x, numpy, matplotlib, follium, geopandas etc.)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>HTML, Javascript, JQuery (hands on experience on several chart and map libraries and Bootstrap)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>C, C++ (microprocessor and DSP programming, ARM, TMS320 DSP, Motorola 6811 etc.)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>C#, Java</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>OLAP (MS Analysis Services and MDX basics)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>MATLAB</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>git&nbsp;</li>
+                                 <li><i class="fa fa-fw fa-star"></i>Mobile App Development (Hands on experience on Cordova, PhoneGap, Framework7)</li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-12 text-left">
+                              <hr>
+                              <h1 class="text-left">
+                                 <i class="fa fa-fw fa-globe"></i>Foreign Languages
+                              </h1>
+                              <ul class="">
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>English (fluent)</li>
+                                 <li><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i><i class="fa fa-fw fa-star"></i>German (advanced)</li>
+                                 <li><i class="fa fa-fw fa-star"></i>Spanish (beginner)</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 hidden-sm hidden-xs">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="row"></div>
-              <div class="row"></div>
+      <footer class="section section-primary">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6">
+                  <h1>Disclaimer</h1>
+                  <p class="text-justify">This is a personal web site. Any views, opinions, data represented in this site are personal and belong solely to the owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with
+                     in professional or personal capacity, unless explicitly stated. Any views or opinions are not intended to malign any group, club, organization, company or individual.&nbsp;
+                  </p>
+               </div>
+               <div class="col-sm-6">
+                  <p class="text-info text-right">
+                     <br>
+                     <br> 
+                  </p>
+                  <div class="row">
+                     <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                        <a href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
+                        <i class="fa fa-3x fa-fw text-inverse fa-linkedin-square"></i>
+                        </a>
+                        <a href="https://www.facebook.com/erdemkoc" target="_blank">
+                        <i class="fa fa-3x fa-fw text-inverse fa-github-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/winterdem" target="_blank">
+                        <i class="fa fa-3x fa-fw text-inverse fa-instagram"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12 hidden-xs text-right">
+                        <a href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
+                        <i class="fa fa-3x fa-fw text-inverse fa-linkedin-square"></i>
+                        </a>
+                        <a href="https://www.facebook.com/erdemkoc" target="_blank">
+                        <i class="fa fa-3x fa-fw text-inverse fa-github-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/winterdem" target="_blank">
+                        <i class="fa fa-3x fa-fw text-inverse fa-instagram"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="bubbleFixedDiv">
-              <div id="vis"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-9" id="toHighlight">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h1>Erdem Koç</h1>
-              <h3>
-                <i class="fa fa-fw fa-mobile-phone"></i>+90 532 210 62 27&nbsp;</h3>
-              <h3>
-                <i class="fa fa-fw fa-envelope-o"></i>kocherdem@yahoo.com</h3>
-              <hr>
-              <div class="hidden-xs row">
-                <div class="col-md-12">
-                  <ul class="lead nav nav-justified nav-pills">
-                    <li>
-                      <a href="index.html">Prof. Interests</a>
-                    </li>
-                    <li>
-                      <a href="Education_2.html">Education &amp; Info.</a>
-                    </li>
-                    <li>
-                      <a href="Experience_2.html">Work Experience</a>
-                    </li>
-                    <li class="active">
-                      <a href="TechnicalSkills_2.html">Technical Skills</a>
-                    </li>
-                    <li>
-                      <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
-                    </li>
-                    <li>
-                      <a href="Hobbies_2.html">Hobbies Interests</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 text-left">
-                  <hr>
-                  <h1 class="text-left">
-                    <i class="fa fa-fw fa-wifi"></i>Mobile Network Planning and Optimization</h1>
-                  <ul class="">
-                    <li>3G, 4G Radio Interface Protocols</li>
-                    <li>3G, 4G Performance Measurement and Benchmarking</li>
-                    <li>3G, 4G KPI analysis and troubleshooting</li>
-                    <li>Self Optimizing Network Algorithms (3G, 4G)</li>
-                    <li>4G parameter optimisation</li>
-                    <li>NB-IoT, Cat-M Fundamentals</li>
-                    <li>3G, 4G Core Network fundamentals</li>
-                    <li>5G fundamentals</li>
-                  </ul>
-                  <ol></ol>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 text-left">
-                  <hr>
-                  <h1 class="text-left">
-                    <i class="fa fa-fw fa-laptop"></i>Software Development&nbsp;</h1>
-                  <ul class="">
-                    <li>Python (hands on experience on data analysis libraries like pandas, oracle_x, numpy, matplotlib, follium, geopandas etc. )</li>
-                    <li>SQL (hands on experinece on Oracle, MS SQL and related tools like Toad, MS SQL Studio)</li>
-                    <li>C#, Java</li>
-                    <li>HTML, Javascript, JQuery (hands on experience on several chart and map libraries and Bootstrap)</li>
-                    <li>C, C++ (microprocessor and DSP programming, ARM, TMS320 DSP, Motorola 6811 etc.)</li>
-                    <li>OLAP (MS Analysis Services and MDX basics)</li>
-                    <li>Mobile App Development (Hands on experience on Cordova, PhoneGap, Framework7)</li>
-                    <li>MATLAB</li>
-                    <li>git&nbsp;</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 text-left">
-                  <hr>
-                  <h1 class="text-left">
-                    <i class="fa fa-fw fa-globe"></i>Foreign Languages</h1>
-                  <ul class="">
-                    <li>English (fluent)</li>
-                    <li>German (advanced)</li>
-                    <li>Spanish (beginner)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer class="section section-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h1>Disclaimer</h1>
-          <p class="text-justify">This is a personal web site. Any views, opinions, data represented in this site are personal and belong solely to the owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with
-            in professional or personal capacity, unless explicitly stated. Any views or opinions are not intended to malign any group, club, organization, company or individual.&nbsp;</p>
-        </div>
-        <div class="col-sm-6">
-          <p class="text-info text-right">
-            <br>
-            <br> </p>
-          <div class="row">
-            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
-              <a href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse fa-linkedin-square"></i>
-              </a>
-              <a href="https://www.facebook.com/erdemkoc" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse edin-square fa-github-square"></i>
-              </a>
-              <a href="https://www.instagram.com/winterdem" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 hidden-xs text-right">
-              <a href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse fa-linkedin-square"></i>
-              </a>
-              <a href="https://www.facebook.com/erdemkoc" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse edin-square fa-github-square"></i>
-              </a>
-              <a href="https://www.instagram.com/winterdem" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="js/bootstrap-toolkit.min.js"></script>
-  <script src="js/plugins.js" defer=""></script>
-  <script src="js/libs/timeline.js"></script>
-  <script src="js/libs/d3.min.js"></script>
-  <script src="js/libs/coffee-script.js"></script>
-  <script type="text/coffeescript" src="coffee/vis.coffee"></script>
-  <script type="text/javascript"></script>
-  <script src="js/libs/ResizeSensor.js"></script>
-  <script src="js/libs/ElementQueries.js"></script>
-  <script src="js/libs/jqueryhighlight.js"></script>
-  <!-- <script>$(window).resize(function(){ redraw();});</script> -->
-  <script>
-    (function($, viewport){
-
-                    $(document).ready(function() {
-
-                        $(window).resize(
-                            viewport.changed(function() {
-
-                            if(viewport.is('>=md')){
-                                    var doit;
-                                    clearTimeout(doit);
-                                    //TODO: responsive bootstrap >=md can already be taking care of this timeout
-                                    doit = setTimeout(redraw(window.location.pathname), 100);
-                            }
-                        })
-                    );
-                });
-            })(jQuery, ResponsiveBootstrapToolkit);
-  </script>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
-    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
-  </pingendo>
-</body>
-
+         </div>
+      </footer>
+      <script src="js/bootstrap-toolkit.min.js"></script>
+      <script src="js/plugins.js" defer=""></script>
+      <script src="js/libs/timeline.js"></script>
+      <script src="js/libs/d3.min.js"></script>
+      <script src="js/libs/coffee-script.js"></script>
+      <script type="text/coffeescript" src="coffee/vis.coffee"></script>
+      <script type="text/javascript"></script>
+      <script src="js/libs/ResizeSensor.js"></script>
+      <script src="js/libs/ElementQueries.js"></script>
+      <script src="js/libs/jqueryhighlight.js"></script>
+      <!-- <script>$(window).resize(function(){ redraw();});</script> -->
+      <script>
+         (function($, viewport) {
+         
+           $(document).ready(function() {
+         
+             $(window).resize(
+               viewport.changed(function() {
+         
+                 if (viewport.is('>=md')) {
+                   var doit;
+                   clearTimeout(doit);
+                   //TODO: responsive bootstrap >=md can already be taking care of this timeout
+                   doit = setTimeout(redraw(window.location.pathname), 100);
+                 }
+               })
+             );
+           });
+         })(jQuery, ResponsiveBootstrapToolkit);
+      </script>
+      <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
+         <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+      </pingendo>
+   </body>
 </html>

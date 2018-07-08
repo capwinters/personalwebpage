@@ -19,15 +19,26 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
-          <img height="20" alt="Brand" src="img\linkedin-5-xxl.png">
-        </a>
+
+        <a href="index.html"><i class="fa fa-3x fa-fw fa-home"></i></a>
+
+        <a href="https://www.linkedin.com/in/erdem-koc-msc-a9825021" target="_blank">
+                <i class="fa fa-3x fa-fw fa-linkedin-square"></i>
+              </a>
+
+        <a href="https://github.com/capwinters" target="_blank">
+                <i class="fa fa-3x fa-fw fa-github-square"></i>
+              </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden-xs">
             <a href="mailto:kocherdem@yahoo.com?Subject=to%20Mr.Koc">
-              <i class="fa fa-fw fa-envelope-o"></i>Contact Me!</a>
+              <i class="fa fa-fw fa-envelope"></i>Contact Me!</a>
+          </li>
+                  <li class="hidden-xs">
+            <a target="blank" href="doc\Erdem_Koc_Resume.pdf">
+              <i class="fa fa-fw fa-file"></i>My Resume in PDF</a>
           </li>
           <li class="hidden-lg hidden-md hidden-sm">
             <a href="index.html">Prof. Interests</a>
@@ -39,10 +50,10 @@
             <a href="Experience_2.html">Work Experience</a>
           </li>
           <li class="hidden-lg hidden-md hidden-sm">
-            <a href="TechnicalSkills_2.html">Technical Skills</a>
+            <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
           </li>
           <li class="hidden-lg hidden-md hidden-sm">
-            <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
+            <a href="Hobbies_2.html">Hobbies &amp; Interests</a>
           </li>
         </ul>
       </div>
@@ -68,8 +79,9 @@
               <h1>Erdem Koç</h1>
               <h3>
                 <i class="fa fa-fw fa-mobile-phone"></i>+90 532 210 62 27&nbsp;</h3>
-              <h3>
-                <i class="fa fa-fw fa-envelope-o"></i>kocherdem@yahoo.com</h3>
+              <a href="mailto:kocherdem@yahoo.com?Subject=to%20Mr.Koc">
+                <h3><i class="fa fa-fw fa-envelope-o"></i>kocherdem@yahoo.com</h3>
+              </a>
               <hr>
               <div class="hidden-xs row">
                 <div class="col-md-12">
@@ -89,7 +101,7 @@
                     <li>
                       <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
                     </li>
-                    <li  class="active">
+                    <li class="active">
                       <a href="#">Hobbies Interests</a>
                     </li>
                   </ul>
@@ -161,7 +173,7 @@
                 <i class="fa fa-3x fa-fw text-inverse fa-linkedin-square"></i>
               </a>
               <a href="https://www.facebook.com/erdemkoc" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse edin-square fa-github-square"></i>
+                <i class="fa fa-3x fa-fw text-inverse fa-github-square"></i>
               </a>
               <a href="https://www.instagram.com/winterdem" target="_blank">
                 <i class="fa fa-3x fa-fw text-inverse fa-instagram"></i>
@@ -174,7 +186,7 @@
                 <i class="fa fa-3x fa-fw text-inverse fa-linkedin-square"></i>
               </a>
               <a href="https://www.facebook.com/erdemkoc" target="_blank">
-                <i class="fa fa-3x fa-fw text-inverse edin-square fa-github-square"></i>
+                <i class="fa fa-3x fa-fw text-inverse fa-github-square"></i>
               </a>
               <a href="https://www.instagram.com/winterdem" target="_blank">
                 <i class="fa fa-3x fa-fw text-inverse fa-instagram"></i>
@@ -197,27 +209,31 @@
   <script src="js/libs/jqueryhighlight.js"></script>
   <!-- <script>$(window).resize(function(){ redraw();});</script> -->
   <script>
-    (function($, viewport){
+    (function($, viewport) {
 
-                    $(document).ready(function() {
+      $(document).ready(function() {
 
-                        $(window).resize(
-                            viewport.changed(function() {
+        $(window).resize(
+          viewport.changed(function() {
 
-                            if(viewport.is('>=md')){
-                                    var doit;
-                                    clearTimeout(doit);
-                                    //TODO: responsive bootstrap >=md can already be taking care of this timeout
-                                    doit = setTimeout(redraw(window.location.pathname), 100);
-                            }
-                        })
-                    );
-                });
+            if (viewport.is('>=md')) {
+              var doit;
+              clearTimeout(doit);
+              //TODO: responsive bootstrap >=md can already be taking care of this timeout
+              doit = setTimeout(redraw(window.location.pathname), 100);
+            }
+          })
+        );
+      });
 
-            })(jQuery, ResponsiveBootstrapToolkit);
+    })(jQuery, ResponsiveBootstrapToolkit);
   </script>
   <script>
-    window._gaq = [['_setAccount','UA-17355070-1'],['_trackPageview'],['_trackPageLoadTime']];
+    window._gaq = [
+      ['_setAccount', 'UA-17355070-1'],
+      ['_trackPageview'],
+      ['_trackPageLoadTime']
+    ];
   </script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
     <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
