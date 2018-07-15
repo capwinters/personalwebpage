@@ -359,6 +359,7 @@ var relations = {
     "Web Development": ["script", "Javascript","HTML","Framework7","App","develop","git", "web"],
     "Embedded Programming": ["C++", "firmware", "embedded", "ARM", "chipset", "protocol"],
     "SON": [ "SON", "optimisation", "3G", "4G", "algorithm", "self", "automatic", "artificial", "intelligent", "smart"],
+    "R&D": ["algorithm", "SON", "algorithm", "self", "automatic", "artificial", "intelligent", "smart"],
     
     "MSc. in Telecomm.": [ "Master", "Thesis", "Msc", "RWTH" ],
     "High Honor Student": [ "CGPA: 3.81", "METU" ],

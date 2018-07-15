@@ -42,13 +42,13 @@
               <i class="fa fa-fw fa-file"></i>My Resume in PDF</a>
           </li>
           <li class="hidden-lg hidden-md hidden-sm">
-            <a href="index.html">Prof. Interests</a>
-          </li>
-          <li class="hidden-lg hidden-md hidden-sm">
             <a href="Education_2.html">Education &amp; Info.</a>
           </li>
           <li class="hidden-lg hidden-md hidden-sm">
             <a href="Experience_2.html">Work Experience</a>
+          </li>
+          <li class="hidden-lg hidden-md hidden-sm">
+            <a href="TechnicalSkills_2.html">Technical Skills</a>
           </li>
           <li class="hidden-lg hidden-md hidden-sm">
             <a href="HonorsAwards_2.html">Awards &amp; Speeches</a>
@@ -115,7 +115,7 @@
                   <h1 class="text-center">
                     <i class="fa fa-fw -phone fa-gears"></i>About my Recent Work
                   </h1>
-                  <p class="lead text-center hidden-sm hidden-xs"><i class="fa fa-fw fa-arrow-left"></i>"You can click on bubbles to highlight a specific topic..."</p>
+                  <p id="highlighted" class="lead text-center hidden-sm hidden-xs"><i class="fa fa-fw fa-arrow-left"></i>"You can click on bubbles to highlight a specific topic..."</p>
                   <ol></ol>
                 </div>
               </div>
@@ -242,12 +242,11 @@
                 <a href="geolocation.html" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="mb-1">3G Network Optimisation via Geo-Location </h3>
-                    <small class="text-muted">2011</small>
+                    <small class="text-muted">2011-13</small>
                   </div>
-                  <p class="mb-1">I was the external lecturer of "Modern Communication Technologies" lecture in Istanbul University Radio, Television and Cinema Department. I prepared my own lecture notes to discuss some basics of the following topics&nbsp;</p>
-                  <small class="text-muted">Keywords: radio, cinema, communications, technology, lecturer, academic</small>
+                  <p class="mb-1">I was the principal engineer of a %100 TUBITAK funded R&D project about locating 3G calls via network logs (Ericsson-GPEH, Huawei-PSCHR) and join this information with network optimization parameters.</p>
+                  <small class="text-muted">Keywords: 3G, geolocation, optimisation, GPEH, PCHR, Ericsson, Huawei, Tubitak</small>
                 </a>
-
 
                 <a target="_blank" href="https://github.com/capwinters/personalwebpage" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
@@ -258,7 +257,7 @@
                   <small class="text-muted">Keywords: html, javascript, markdown, coffee, d3, bootstrap, css, web development, data viusalization</small>
                 </a>
 
-                <ahref="lecture.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="lecture.html" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="mb-1">My own notes on Modern Communications Technologies as a visiting Lecturer in Istanbul University </h3>
                     <small class="text-muted">2011</small>
@@ -358,6 +357,9 @@
         }
       );
     })(jQuery, ResponsiveBootstrapToolkit);
+  </script>
+  <script>
+   $('#highlighted').highlight('highlight');
   </script>
 </body>
 
